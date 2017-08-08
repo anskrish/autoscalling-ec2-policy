@@ -1,0 +1,5 @@
+- name: Create a EC2 instance to configure tomcat and apache
+  hosts: localhost
+  gather_facts: False
+  roles:
+     - role
